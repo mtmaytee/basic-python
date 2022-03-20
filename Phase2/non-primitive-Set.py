@@ -64,6 +64,13 @@ print(fruitA)
 #subset
 fish={"ปลาดุก", "ปลาหมอ" , "ปลาวาฬ","ปลาโลมา", "ปลาฉลาม" , "ปลาตะเพียน"}
 
+X={"ปลาหมอ", "ปลาดุก" }
+y={"ปลาวาฬ","ปลาฉลาม"}
+#.issubset reture boolen
+print(X.issubset(fish))
 
-
+# min , max
+number={3,4,5,100,80,900,1000,500,300,-100,-8,-150}
+print(min(number))
+print(max(number))
 
